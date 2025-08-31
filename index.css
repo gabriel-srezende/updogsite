@@ -1,0 +1,124 @@
+/* index.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f6f5f4;
+}
+
+
+.s1 {
+    display: flex;
+    flex-direction: column;
+    padding: 45px;
+    align-items: center;
+    
+}
+
+.s1 header{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.s1 header img {
+    max-width: 200px;
+}
+
+.s1 header nav{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.s1 header nav a {
+    padding: 25px;
+    color: rgb(73, 72, 72);
+    text-decoration: none;
+    font-size:  20px;
+    font-weight: 700; 
+    border-radius: 30px;
+}
+.s1 header nav a:hover {
+color: rgb(2, 64, 248);
+}
+
+.s1 main{
+    display: flex ;
+    flex-direction: row;
+    align-items: center;
+    padding: 50px;
+    justify-content: space-between; 
+    max-width: 11800px;
+     width: 100%;
+    
+}
+
+.s1 main .textos{
+    display: flex;
+    flex-direction: column;
+
+}
+.s1 main .textos h1
+{ font-size: 48px;
+    color: #333;
+    max-width: 500px; 
+
+}
+.s1 main .textos h2 {
+    font: size 24px;;
+    color: rgb(2, 64, 248);
+
+}
+.s1 main img {
+    max-width: 500px;
+}
+
+.s2 main {
+    display: flex;
+    align-items: center;   
+    justify-content: space-between; 
+    padding: 50px;
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.s2 main h1 {
+    font-size: 48px;
+    color: #333;
+    max-width: 500px; 
+}
+
+.s2 main div img {
+    max-width: 500px;
+    height: auto;
+    
+}
+.s3 {
+    display: flex;
+    flex-direction: column;
+    
+align-items: center;
+}
+.s3 main{
+    display: flex;
+    flex-direction: row;
+    
+
+}
+.s3 .textos h1 {
+    font-size: 24px;
+    color: rgb(2, 64, 248);
+}
+
+.s3 main img {
+    max-width: 600px;
+}
+@media (max-width: 768px) {
+
+}
